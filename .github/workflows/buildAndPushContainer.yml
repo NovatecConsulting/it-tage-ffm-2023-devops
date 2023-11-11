@@ -32,7 +32,8 @@ jobs:
           password: ${{ secrets.DOCKER_PASSWORD }}
 
       - name: Build and push Docker image
-        uses: docker/build-push-action@v2
+        if: ${{ github.event_name != 'pull_request' }}
+        uses: docker/build-push-action@v5.0.0
         with:
           context: ./supplychain/container/
           file: ./supplychain/container/Dockerfile
@@ -44,12 +45,26 @@ jobs:
           cache-from: type=gha
           cache-to: type=gha,mode=max
 
+      - name: Build and push Docker image for pull request
+        if: ${{ github.event_name == 'pull_request' }}
+        uses: docker/build-push-action@v5.0.0
+        with:
+          context: ./supplychain/container/
+          file: ./supplychain/container/Dockerfile
+          platforms: linux/amd64,linux/arm64
+          push: true
+          tags: |
+            ntdominikpabst/it-tage-ffm-2023-devops:${{ github.sha }}_PR${{ github.event.number }}
+          cache-from: type=gha
+          cache-to: type=gha,mode=max
+
       - name: Docker Scout
         id: docker-scout
         if: ${{ github.event_name == 'pull_request' }}
         uses: docker/scout-action@v1
         with:
-          command: quickview,cves,recommendations,sbom
+          command: compare
+          image: ntdominikpabst/it-tage-ffm-2023-devops:${{ github.sha }}_PR${{ github.event.number }}
           to-latest: true
           ignore-base: true
           ignore-unchanged: true
