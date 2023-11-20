@@ -33,7 +33,7 @@ jobs:
 
       - name: Build and push Docker image
         if: ${{ github.event_name != 'pull_request' }}
-        uses: docker/build-push-action@v5.0.0
+        uses: docker/build-push-action@v5.1.0
         with:
           context: ./supplychain/container/
           file: ./supplychain/container/Dockerfile
@@ -47,7 +47,7 @@ jobs:
 
       - name: Build and push Docker image for pull request
         if: ${{ github.event_name == 'pull_request' }}
-        uses: docker/build-push-action@v5.0.0
+        uses: docker/build-push-action@v5.1.0
         with:
           context: ./supplychain/container/
           file: ./supplychain/container/Dockerfile
