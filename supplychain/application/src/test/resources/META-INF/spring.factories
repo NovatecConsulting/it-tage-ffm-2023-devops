@@ -1,0 +1,3 @@
+org.springframework.test.context.ContextCustomizerFactory = de.novatec.demoapp.\
+    config.TestContainersSpringContextCustomizerFactory,de.novatec.demoapp.\
+    config.SqlTestContainersSpringContextCustomizerFactory
