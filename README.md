@@ -1,12 +1,14 @@
-# Dev(Sec)Ops Workshop
+!["Novatec perfect flow"](./99_assets/images/perfect-flow.jpeg)
+# DevSecOps-Workshop – Agile Sicherheit in der Software-Entwicklung
 
-Willkommen zum DevSecOps-Workshop – Agile Sicherheit in der Software-Entwicklung.
+Willkommen zum DevSecOps-Workshop von Novatec. In diesem Workshop lernen Sie die Grundlagen von DevOps und Security kennen und erfahren, wie Sie Sicherheit in Ihre Software-Entwicklung integrieren können.
 Dieses Repository enthält alle Übungen und Materialien, die während des Workshops verwendet werden.
 
 ## Inhalt
 
 Der Workshop ist in drei Hauptbereiche unterteilt:
 
+//TODO: Agenda vervollständigen
 1. **Grundlagen DevOps**
    - Einführung in DevOps-Prinzipien
    - Continuous Integration (CI) und Continuous Deployment (CD)
@@ -25,17 +27,21 @@ Der Workshop ist in drei Hauptbereiche unterteilt:
    - ...
 
 
+
 ## Struktur des Repositories
 
-Das Repository ist nach den Workshop-Bereichen strukturiert. Jeder Bereich enthält einen separaten Ordner mit den entsprechenden Übungen und Materialien.
+Das Repository ist nach den Workshop-Bereichen strukturiert. Jeder Bereich enthält einen separaten Ordner mit den entsprechenden theoretischen Grundlagen und praktischen Teilen.
 
-- **devops/**
+- [**0_devops/**](./0_devops/)
   - Enthält Übungen und Materialien zu den Grundlagen von DevOps.
 
-- **security/**
+- [**1_security/**](./1_security/)
   - Enthält Übungen und Materialien zu den Grundlagen der Sicherheit.
 
-- **supplychain/**
+- [**2_supplychain/**](./2_supplychain/)
   - Enthält Übungen und Materialien zu Sicherheitsaspekten in der Supplychain.
 
 
+## Umfrage zur Erwartungshaltung
+
+//TODO: Link zur Umfrage einfügen
