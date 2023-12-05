@@ -1,6 +1,6 @@
 # DevOps: 
 
-![DevOps](./assets/images/devops-cycle.jpeg)
+![DevOps](../99_assets/images/devops-cycle.jpeg)
 
 DevOps ist eine Kultur und Praktik, die auf den Prinzipien von Continuous Integration, Continuous Delivery, Automation, Lean, Measurement und Sharing (CALMS) basiert. Diese Prinzipien helfen dabei, die Zusammenarbeit zwischen Entwicklung (Development) und Betrieb (Operations) zu verbessern und die Softwarebereitstellung effizienter zu gestalten.
 
