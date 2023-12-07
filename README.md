@@ -9,24 +9,27 @@ Dieses Repository enthält alle Übungen und Materialien, die während des Works
 Der Workshop ist in drei Hauptbereiche unterteilt:
 
 //TODO: Agenda vervollständigen
+
 1. **Grundlagen DevOps**
+
    - Einführung in DevOps-Prinzipien
    - Continuous Integration (CI) und Continuous Deployment (CD)
-   - ... 
-
-2. **Grundlagen Security**
-   - Sicherheitsgrundlagen für Entwickler
-   - Bedrohungsmodellierung
-   - Identifikation von Schwachstellen
    - ...
 
+2. [**Grundlagen Security**](1_security/README.md)
+
+   - Sicherheitsgrundlagen für Entwickler
+   - Bedrohungsmodellierung
+   - Sicherheitsanforderungen
+   - Testautomatisierung für Security
+   - Security Observabilty
+
 3. **Security in der Supplychain**
+
    - Sicherheitsaspekte in der Lieferkette
    - Container-Sicherheit
    - Integration von Sicherheitsprüfungen
    - ...
-
-
 
 ## Struktur des Repositories
 
@@ -40,7 +43,6 @@ Das Repository ist nach den Workshop-Bereichen strukturiert. Jeder Bereich enth�
 
 - [**2_supplychain/**](./2_supplychain/)
   - Enthält Übungen und Materialien zu Sicherheitsaspekten in der Supplychain.
-
 
 ## Umfrage zur Erwartungshaltung
 
