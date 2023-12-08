@@ -30,10 +30,16 @@
 
 
 ## PPT (People, Process, Technology)
-Zitat: “DevOps at a very high-level involves People, Process, and Products/Tools – and in that order intentionally.” John Willis
+> “DevOps at a very high-level involves People, Process, and Products/Tools – and in that order intentionally.” John Willis
 
 ## 24 Key Caps
 ![24 Key Caps](./../99_assets/images/24-key-caps.png)
 
 ### Referenzen und weiterführende Links
+- [CALMS: The DevOps Culture Model](https://www.atlassian.com/devops)
+- [The Three Ways: The Principles Underpinning DevOps](https://itrevolution.com/the-three-ways-principles-underpinning-devops/)
+- [The Phoenix Project: A Novel about IT, DevOps, and Helping Your Business Win](https://www.goodreads.com/book/show/17255186-the-phoenix-project)
 
+- [Accelerate: The Science of Lean Software and DevOps: Building and Scaling High Performing Technology Organizations](https://www.goodreads.com/book/show/39080433-accelerate)
+
+- [The DevOps Handbook: How to Create World-Class Agility, Reliability, and Security in Technology Organizations](https://www.goodreads.com/book/show/26083308-the-devops-handbook)
