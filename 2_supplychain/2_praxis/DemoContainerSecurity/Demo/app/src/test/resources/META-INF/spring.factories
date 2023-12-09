@@ -1,0 +1,2 @@
+org.springframework.test.context.ContextCustomizerFactory = de.novatec.ittage.\
+    app.config.SqlTestContainersSpringContextCustomizerFactory
