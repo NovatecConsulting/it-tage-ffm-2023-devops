@@ -1,0 +1,66 @@
+{
+    "bomFormat": "CycloneDX",
+    "specVersion": "1.2",
+    "serialNumber": "urn:uuid:3e671687-395b-41f5-a30f-a58921a69b79",
+    "version": 1,
+    "metadata": {
+        "timestamp": "2020-04-13T20:20:39+00:00",
+        "tools": [
+            {
+                "vendor": "Maschine Inc",
+                "name": "Secure Machine",
+                "version": "1.0"
+            }
+        ],
+        "authors": [
+            {
+                "name": "Andreas Falk",
+                "email": "andreas.falk@novatec-gmbh.de"
+            }
+        ],
+        "component": {
+            "type": "device",
+            "author": "Andreas Falk",
+            "name": "Secure Machine",
+            "version": "1.0"
+        },
+        "supplier": {
+            "name": "Machine Inc.",
+            "url": [
+                "https://example.com"
+            ]
+        }
+    },
+    "components": [
+        {
+            "type": "operating-system",
+            "name": "Microsoft Windows 10",
+            "version": "1909",
+            "cpe": "cpe:2.3:o:microsoft:windows_10:1909:*:*:*:*:*:x64:*"
+        },
+        {
+            "type": "firmware",
+            "name": "Scalance S615",
+            "version": "4.3",
+            "cpe": "cpe:2.3:o:siemens:scalance_s615_firmware:4.3:*:*:*:*:*:*:*"
+        },
+        {
+            "type": "firmware",
+            "name": "Simatic S7-1500_cpu_1517",
+            "version": "2.5",
+            "cpe": "cpe:2.3:o:siemens:simatic_s7-1500_cpu_1517-3_pn_firmware:2.5:*:*:*:*:*:*:*"
+        },
+        {
+            "type": "firmware",
+            "name": "Rockwell ControlLogix 5580",
+            "version": "v28.011",
+            "cpe": "cpe:2.3:o:rockwellautomation:controllogix_5580_firmware:v28.011:*:*:*:*:*:*:*"
+        },
+        {
+            "type": "firmware",
+            "name": "Phoenix MGuard",
+            "version": "8.3.0",
+            "cpe": "cpe:2.3:a:phoenix_contact:mguard:8.3.0:*:*:*:*:*:*:*"
+        }
+    ]
+}
