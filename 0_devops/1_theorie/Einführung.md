@@ -7,7 +7,58 @@ DevOps ist eine Kultur und Praktik, die auf den Prinzipien von Continuous Integr
 
 ## Wasserfall -> Agile -> DevOps
 
+### Wasserfall
+
+Das Wasserfallmodell ist ein lineares Vorgehensmodell, bei dem das Projekt in Phasen organisiert wird. Die Phasen werden sequentiell durchlaufen und bauen aufeinander auf. Das Wasserfallmodell ist ein klassisches Vorgehensmodell, das in den 1970er Jahren entwickelt wurde. Es ist das erste dokumentierte Vorgehensmodell und diente als Grundlage für viele weitere Vorgehensmodelle.
+
+#### Vorteile
+- Einfach zu verstehen
+- Einfach zu verwalten
+- Einfach zu planen
+- Einfach zu kontrollieren
+- Einfach zu messen
+
+#### Nachteile
+- Keine Flexibilität
+- Keine Anpassungsfähigkeit
+- Keine schnelle Reaktion auf Änderungen
+- Keine schnelle Fehlerbehebung
+
+### Agile
+
+#### Die Leitsätze des Agilen Manifests:
+1. Fokus mehr auf Individuen und Interaktionen, weniger auf Prozessen und Werkzeugen
+2. Funktionierende Software ist wichtiger als umfangreiche Dokumentation
+3. Zusammenarbeit mit Kunden wird Vertragsverhandlungen vorgezogen
+4. Anpassungsfähigkeit hat Vorrang vor striktem Festhalten an Plänen
+
+
+### DevOps
+
+#### Vorteile
+- Schnellere Bereitstellung
+- Höhere Qualität
+- Höhere Zuverlässigkeit
+- Höhere Sicherheit
+- Höhere Kundenzufriedenheit
+- Höhere Mitarbeiterzufriedenheit
+- Höhere Effizienz
+
+#### Nachteile
+- Komplexität
+- Lernkurve
+- Kulturelle Veränderungen
+- Veränderungen in der Organisation
+- Veränderungen in der Technologie
+- Veränderungen in den Prozessen
+- Veränderungen in den Tools
+- Veränderungen in der Kommunikation
+- Veränderungen in der Zusammenarbeit
+- Veränderungen in der Verantwortung
+- Veränderungen in der Transparenz
+
 ## Komplexität
+![DevOps Komplexität](../99_assets/images/devops-complexity.jpeg)
 
 ## Historie
 ![DevOps Historie](../99_assets/images/devops-history.svg)

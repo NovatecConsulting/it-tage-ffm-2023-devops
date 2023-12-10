@@ -10,11 +10,12 @@ Der Workshop ist in drei Hauptbereiche unterteilt:
 
 //TODO: Agenda vervollständigen
 
-1. **Grundlagen DevOps**
+1. [**Grundlagen DevOps**](0_devops/README.md)
 
-   - Einführung in DevOps-Prinzipien
-   - Continuous Integration (CI) und Continuous Deployment (CD)
-   - ...
+   - Einführung in DevOps
+   - DevOps Prinzipien
+   - Continuous Integration (CI) und Continuous Delivery (CD)
+   - DevOps mit Fokus auf Security
 
 2. [**Grundlagen Security**](1_security/README.md)
 
