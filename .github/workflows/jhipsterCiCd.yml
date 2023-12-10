@@ -1,5 +1,15 @@
 name: JHipster CI/CD Pipeline
-on: [push, pull_request]
+on:
+  push:
+    branches:
+      - main
+    paths:
+      - 2_supplychain/2_praxis/DemoContainerSecurity/Demo/app/**
+  pull_request:
+    branches: [ "**" ]
+    paths:
+      - 2_supplychain/2_praxis/DemoContainerSecurity/Demo/app/**
+  workflow_dispatch:
 jobs:
   pipeline:
     name: app pipeline

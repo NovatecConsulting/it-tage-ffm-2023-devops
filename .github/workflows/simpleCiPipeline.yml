@@ -3,7 +3,9 @@ on:
   push:
     branches:
       - main
-    workflow_dispatch:
+    paths:
+      - 0_devops/2_praxis/ContinuousIntegration/Demo/react-app/**
+  workflow_dispatch:
 jobs:
   build:
     runs-on: ubuntu-latest
