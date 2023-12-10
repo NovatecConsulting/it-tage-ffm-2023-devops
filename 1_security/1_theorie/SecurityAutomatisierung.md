@@ -17,15 +17,17 @@
 * Security Tools für die CI-/CD-Pipeline
   ![CICD Tooling](../99_assets/images/CICD_tools.png)
 
+Eine beispielhafte Pipeline mit GitHub Actions ist in diesem [Projekt](https://github.com/andifalk/supply-chain-security) zu finden.  
 
 * Code Reviews
 
 * Pentests
   ![Pentestflow](../99_assets/images/pentest_schritte.png)
 
-
 * Software Composition Analysis (SCA)
   ![SCA](../99_assets/images/SCA.png)
+
+  
 
 ## Security Observability
 
