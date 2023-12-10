@@ -4,11 +4,11 @@ on:
     branches:
       - main
     paths:
-      - 2_supplychain/2_praxis/DemoContainerSecurity/Demo/app/**
+      - 2_supplychain/2_praxis/DemoApplication/app/**
   pull_request:
     branches: [ "**" ]
     paths:
-      - 2_supplychain/2_praxis/DemoContainerSecurity/Demo/app/**
+      - 2_supplychain/2_praxis/DemoApplication/app/**
   workflow_dispatch:
 jobs:
   pipeline:
@@ -33,23 +33,23 @@ jobs:
           java-version: 17
       - name: Install node.js packages
         run: npm install
-        working-directory: ./2_supplychain/2_praxis/DemoContainerSecurity/Demo/app
+        working-directory: ./2_supplychain/2_praxis/DemoApplication/app/
       - name: Run backend test
         run: |
           chmod +x mvnw
           npm run ci:backend:test
-        working-directory: ./2_supplychain/2_praxis/DemoContainerSecurity/Demo/app
+        working-directory: ./2_supplychain/2_praxis/DemoApplication/app/
       - name: Run frontend test
         run: npm run ci:frontend:test
-        working-directory: ./2_supplychain/2_praxis/DemoContainerSecurity/Demo/app
+        working-directory: ./2_supplychain/2_praxis/DemoApplication/app/
       - name: Package application
         run: npm run java:jar:prod
-        working-directory: ./2_supplychain/2_praxis/DemoContainerSecurity/Demo/app
+        working-directory: ./2_supplychain/2_praxis/DemoApplication/app/
       - name: Build and publish docker image
         if: github.event_name == 'push' && (github.ref == 'refs/heads/main' || startsWith(github.ref, 'refs/tags/'))
         run: |
           GIT_TAG=:${GITHUB_REF#refs/tags/}
           DOCKER_TAG=${GIT_TAG#:refs/heads/main}
           ./mvnw -ntp jib:build -Djib.to.image=ntdominikpabst/hipsterapp${DOCKER_TAG} -Djib.to.auth.username="${{ secrets.DOCKER_USERNAME }}" -Djib.to.auth.password="${{ secrets.DOCKER_PASSWORD }}" -Pprod
-        working-directory: ./2_supplychain/2_praxis/DemoContainerSecurity/Demo/app
+        working-directory: ./2_supplychain/2_praxis/DemoApplication/app/
 
