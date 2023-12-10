@@ -15,6 +15,8 @@
 - Förderung der Zusammenarbeit zwischen Teams
 - Automatisierung von Sicherheitsmaßnahmen
 
+![Shift Left Security Costs](./../99_assets/images/shift-left-cost-graph.png)
+
 ## Herausforderungen
 - Geschwindigkeit und Druck für schnelle Bereitstellungen
 - Kulturelle Unterschiede zwischen Entwicklungs- und Sicherheitsteams
@@ -22,3 +24,12 @@
 - Komplexität der Anwendungsarchitekturen
 - Schulung und Kompetenzentwicklung
     - [Security Certification Roadmap](https://pauljerimy.com/security-certification-roadmap/)
+
+
+### Verantwortlichkeiten
+
+![Verantwortlichkeiten](./../99_assets/images/verantwortlichkeiten.png)
+
+### Referenzen und weiterführende Links
+- [Shift Left Security by snyk](https://snyk.io/learn/shift-left-security/)
+- [Shift Left Security by apisec](https://www.apisec.ai/blog/shift-left-security)
