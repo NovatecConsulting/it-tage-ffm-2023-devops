@@ -1,0 +1,7 @@
+FROM python:3.7.3-stretch@sha256:a1c56db383e4169ce242f88c527608869afcb813e55b29d46ca3476b3edc4de7
+COPY requirements.txt /tmp/
+RUN pip install -r /tmp/requirements.txt --no-cache-dir && useradd --create-home appuser
+WORKDIR /home/appuser
+USER appuser
+COPY app.py .
+CMD [ "python", "./app.py" ]

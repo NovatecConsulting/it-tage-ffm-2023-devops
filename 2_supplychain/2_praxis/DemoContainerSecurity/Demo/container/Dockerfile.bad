@@ -1,0 +1,6 @@
+# BAD EXAMPLE - DO NOT USE
+FROM python:latest
+RUN pip install flask
+COPY app.py /
+USER root
+CMD [ "python", "./app.py" ]
