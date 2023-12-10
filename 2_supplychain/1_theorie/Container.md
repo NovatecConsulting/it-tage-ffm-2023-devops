@@ -11,19 +11,20 @@ Ein Container ist eine isolierte Umgebung, die eine Anwendung und alle ihre Abh√
 ![Container vs. VMs](../99_assets/images/container-vs-vm.png)
 
 ### Virtual Machines
+
 ![Virtual Machines](../99_assets/images/vm-overview.png)
 
 ### Container
+
 ![Container](../99_assets/images/container-overview.png)
 
 ### Container Security
+
 ![Container Security](../99_assets/images/container-security.png)
 
 
-
-
-
 ### Referenzen und weiterf√ºhrende Links
+
 - [Introduction to Containers](https://www.docker.com/resources/what-container)
 - [Docker Documentation](https://docs.docker.com/)
 - [Dockerfile Best Practices](https://docs.docker.com/develop/develop-images/dockerfile_best-practices/)
