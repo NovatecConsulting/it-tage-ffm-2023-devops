@@ -8,8 +8,6 @@ Dieses Repository enthält alle Übungen und Materialien, die während des Works
 
 Der Workshop ist in drei Hauptbereiche unterteilt:
 
-//TODO: Agenda vervollständigen
-
 1. [**Grundlagen DevOps**](0_devops/README.md)
 
    - Einführung in DevOps
@@ -47,4 +45,4 @@ Das Repository ist nach den Workshop-Bereichen strukturiert. Jeder Bereich enth�
 
 ## Umfrage zur Erwartungshaltung
 
-//TODO: Link zur Umfrage einfügen
+![Umfrage zur Erwartungshaltung - Team 1](./99_assets/images/qr-code-team1.png)
