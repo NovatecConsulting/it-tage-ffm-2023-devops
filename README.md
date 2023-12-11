@@ -23,7 +23,7 @@ Der Workshop ist in drei Hauptbereiche unterteilt:
    - Testautomatisierung für Security
    - Security Observabilty
 
-3. **Security in der Supplychain**
+3. [**Security in der Supplychain**](2_supplychain/README.md)
 
    - Sicherheitsaspekte in der Lieferkette
    - Container-Sicherheit
