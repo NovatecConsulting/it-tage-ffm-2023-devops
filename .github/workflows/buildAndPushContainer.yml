@@ -37,7 +37,7 @@ jobs:
 
       - name: Build and push Docker image 🛠️💾↗️
         if: ${{ github.event_name != 'pull_request' }}
-        uses: docker/build-push-action@v5.1.0
+        uses: docker/build-push-action@v5.2.0
         with:
           context: ./2_supplychain/2_praxis/DemoContainerSecurity/container/
           file: ./2_supplychain/2_praxis/DemoContainerSecurity/container/Dockerfile
@@ -51,7 +51,7 @@ jobs:
 
       - name: Build and push Docker image for pull request 🛠️💾↗️
         if: ${{ github.event_name == 'pull_request' }}
-        uses: docker/build-push-action@v5.1.0
+        uses: docker/build-push-action@v5.2.0
         with:
           context: ./2_supplychain/2_praxis/DemoContainerSecurity/container/
           file: ./2_supplychain/2_praxis/DemoContainerSecurity/container/Dockerfile
